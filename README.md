@@ -9,4 +9,6 @@
 - utilização de uma biblioteca para gerar ids
 - utilização de childrens
 - utilização de handles
-- utilização de bibliotecas como: react icons, uuid, react router (simulação de páginas)
+- utilização de bibliotecas como: react icons, uuid, react router (simulação de páginas), api axios
+
+- api fixa já que não há utilização de banco de dados
