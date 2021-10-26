@@ -4,6 +4,9 @@ import AddTask from "./components/AddTask";
 import Tasks from "./components/Tasks";
 import { v4 as uuidv4 } from 'uuid';
 import Header from "./components/Header";
+//mapeamento de páginas
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import TaskDetails from "./components/TaskDetails";
 
 function App() {
 
@@ -51,17 +54,23 @@ function App() {
   }
 
   return (
-    <>
+    <Router>
       <div className="container">
-        <Header/>
-        <AddTask handleTaskAddition={handleTaskAddition} />
-        <Tasks
-          tasks={tasks}
-          handleTaskClick={handleTaskClick}
-          handleTaskDeletion={handleTaskDeletion}
+        <Header />
+        <Route path="/" exact render={() => (
+            <>
+              <AddTask handleTaskAddition={handleTaskAddition} />
+              <Tasks
+                tasks={tasks}
+                handleTaskClick={handleTaskClick}
+                handleTaskDeletion={handleTaskDeletion}
+              />
+            </>
+          )}
         />
+        <Route path='/:taskTitle' exact component={TaskDetails}/>
       </div>
-    </>
+    </Router>
   );
 }
 

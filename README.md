@@ -9,3 +9,4 @@
 - utilização de uma biblioteca para gerar ids
 - utilização de childrens
 - utilização de handles
+- utilização de bibliotecas como: react icons, uuid, react router (simulação de páginas)
