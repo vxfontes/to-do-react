@@ -1,8 +1,14 @@
 import React from 'react';
+import Task from './Task';
 
-const Tasks = (props) => {
-    return(
-        <h1>Tasks</h1>
+//mapear as tasks e p cada uma renderizar um componente
+const Tasks = ({ tasks }) => {
+    return (
+        <>
+            {tasks.map((task) => (
+                <Task task={task} />
+            ))}
+        </>
     );
 }
 
