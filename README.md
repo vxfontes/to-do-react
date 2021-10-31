@@ -30,6 +30,12 @@
 - Rotas para simular diferentes páginas no react
 - Utilização de ferramentas do react como childrens e handles
 
+<div align="center">
+  <a class="button" href="https://romantic-bassi-28db6d.netlify.app/" style="display: block;
+      width: 115px;height: 25px;background: #4356bc;padding: 10px;text-align: center;border-radius: 5px;
+      color: white;font-weight: bold;line-height: 25px;">Teste aqui</a>
+</div>
+
 ## :sparkles: Ferramentas ##
 
 :heavy_check_mark: react icons;\
@@ -52,23 +58,23 @@ Antes de instalar/clonar :checkered_flag:, você precisa ter instalado o [Git](h
 ## :checkered_flag: Passos ##
 
 ```bash
-# Clone this project
+# Clone o projeto
 $ git clone https://github.com/vxfontes/to-do-react
 
-# Access
+# Acessar
 $ cd to-do-react
 
-# Install dependencies
+# Instalar dependencias
 $ yarn
 or
 $ npm install
 
-# Run the project
+# Rode o projeto
 $ yarn start
 or
 $ npm start
 
-# The server will initialize in the <http://localhost:3000>
+# O servidor será iniciado na porta <http://localhost:3000>
 ```
 
-<a href="#top">Back to top</a>
+<a href="#top">Volte para o topo</a>
