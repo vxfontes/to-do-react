@@ -36,6 +36,19 @@
       color: white;font-weight: bold;line-height: 25px;">Teste aqui</a>
 </div>
 
+<div align="center" style="display: inline_block">
+  <img align="center" src="https://github.com/vxfontes/to-do-react/blob/main/src/image/principal.png" width="49%" height="45%">
+  <img align="center" src="https://github.com/vxfontes/to-do-react/blob/main/src/image/infos.png" width="49%" height="45%">
+</div>
+
+<br />
+<br />
+
+
+https://user-images.githubusercontent.com/63061509/202737466-df8d0042-789b-4cdb-b614-d07b118676a3.mp4
+
+
+
 ## :sparkles: Ferramentas ##
 
 :heavy_check_mark: react icons;\
